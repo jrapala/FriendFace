@@ -20,7 +20,9 @@ struct ContentView: View {
             VStack {
                 if loadingState == .loaded {
                     List(users, id: \.id) { user in
-                        Text(user.name)
+                        NavigationLink(destination: UserView(user: user)) {
+                            Text(user.name)
+                        }
                     }
                 } else if loadingState == .loading {
                     Text("Loading…")

@@ -13,6 +13,7 @@
 		BCAD4C17256C94F4009656F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD4C16256C94F4009656F3 /* Preview Assets.xcassets */; };
 		BCAD4C20256CA06D009656F3 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4C1F256CA06D009656F3 /* Friend.swift */; };
 		BCAD4C23256CA0FF009656F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4C22256CA0FF009656F3 /* User.swift */; };
+		BCAD4C26256E050C009656F3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4C25256E050C009656F3 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BCAD4C18256C94F4009656F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAD4C1F256CA06D009656F3 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		BCAD4C22256CA0FF009656F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BCAD4C25256E050C009656F3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BCAD4C15256C94F4009656F3 /* Preview Content */,
 				BCAD4C1F256CA06D009656F3 /* Friend.swift */,
 				BCAD4C22256CA0FF009656F3 /* User.swift */,
+				BCAD4C25256E050C009656F3 /* UserView.swift */,
 			);
 			path = FriendFace;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				BCAD4C23256CA0FF009656F3 /* User.swift in Sources */,
 				BCAD4C20256CA06D009656F3 /* Friend.swift in Sources */,
+				BCAD4C26256E050C009656F3 /* UserView.swift in Sources */,
 				BCAD4C12256C94F1009656F3 /* ContentView.swift in Sources */,
 				BCAD4C10256C94F1009656F3 /* FriendFaceApp.swift in Sources */,
 			);
